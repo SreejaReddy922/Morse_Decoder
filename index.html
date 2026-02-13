@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Morse Code Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Morse Code Converter</h1>
+
+        <textarea id="inputText" placeholder="Enter text or Morse code"></textarea>
+
+        <div class="buttons">
+            <button onclick="textToMorse()">Text → Morse</button>
+            <button onclick="morseToText()">Morse → Text</button>
+            <button onclick="playMorseSound()">Play Sound</button>
+            <button onclick="clearFields()">Clear</button>
+        </div>
+
+        <h3>Output:</h3>
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
